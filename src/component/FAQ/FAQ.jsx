@@ -8,8 +8,8 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What grades does Bethel English School offer?",
-      answer: "Bethel English School offers education from preschool through to Grade 12, providing a comprehensive curriculum for all ages."
+      question: "What grades does Progressive Educational Trust offer?",
+      answer: "Progressive Educational Trust offers education from preschool through to Grade 12, providing a comprehensive curriculum for all ages."
     },
     {
       question: "What is the school's teaching philosophy?",
@@ -21,10 +21,10 @@ export default function FAQ() {
     },
     {
       question: "What is the student-to-teacher ratio?",
-      answer: "The student-to-teacher ratio at Bethel English School is approximately 15:1, ensuring personalized attention for each student."
+      answer: "The student-to-teacher ratio at Progressive Educational Trust is approximately 15:1, ensuring personalized attention for each student."
     },
     {
-      question: "How can I enroll my child at Bethel English School?",
+      question: "How can I enroll my child at Progressive Educational Trust?",
       answer: "Enrollment can be completed through our website or by visiting the school office. We recommend scheduling a tour to learn more about our programs."
     },
     {
@@ -33,7 +33,7 @@ export default function FAQ() {
     },
     {
       question: "Are meals provided at school?",
-      answer: "Yes, Bethel English School provides nutritious meals prepared daily to ensure students have the energy they need to thrive."
+      answer: "Yes, Progressive Educational Trust provides nutritious meals prepared daily to ensure students have the energy they need to thrive."
     },
     {
       question: "What support services are available for students?",
