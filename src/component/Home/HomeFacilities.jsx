@@ -14,7 +14,7 @@ const facilities = [
   {
     title: "Transport",
     subtitle: "Safe and convenient travel for students.",
-    description: `Innisfree House School owns and operates a fleet of buses equipped with all safety measures mandated by law, including correctly displayed signage, GPS, fire extinguishers, CCTV cameras, a first-aid box, and speed governors. Our transport team has devised structured emergency policies and procedures, and all our drivers and attendants are police-verified. Bus routes cover many key areas of South Bangalore.`,
+    description: `School under Progressive Educational Trust owns and operates a fleet of buses equipped with all safety measures mandated by law, including correctly displayed signage, GPS, fire extinguishers, CCTV cameras, a first-aid box, and speed governors. Our transport team has devised structured emergency policies and procedures, and all our drivers and attendants are police-verified. Bus routes cover many key areas of South Bangalore.`,
     image: transport,
     bgColor: "bg-[#770606FF]", // Adjust this color as per the exact design
   },

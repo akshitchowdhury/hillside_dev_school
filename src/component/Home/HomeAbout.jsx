@@ -11,15 +11,15 @@ const HomeAbout = () => {
             <div>
               <h3 className="text-amber-400 text-lg my-4">How it started for us</h3>
               <h2 className="text-4xl lg:text-6xl font-normal text-zinc-50 mb-4">
-                Hillside School for Children
+                Progressive Eduational Trust for Children
               </h2>
             </div>
             <div>
               <p className="text-lg text-justify text-gray-50">
                 <span className="text-4xl text-amber-400 font-semibold">
-                  Hillside Group of Institutions
+                  Progressive Eduational Trust
                 </span>{" "}
-                started back in 1996 by Bheemachandra Education Trust. Hillside Group has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore City. Started with healthcare education, basic schools, and added more courses in nursing, Pharmacy College, business management, and commerce. Hillside Group of Institutions is a distinguished educational institution, combining excellence with innovation.
+                started back in 1996 by Bheemachandra Education Trust. PET has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore City. Started with healthcare education, basic schools, and added more courses in nursing, Pharmacy College, business management, and commerce. Hillside Group of Institutions is a distinguished educational institution, combining excellence with innovation.
               </p>
             </div>
           </div>
