@@ -1,0 +1,48 @@
+/* Base styles for the background image */
+.navBg {
+  position: relative; /* To position the overlay correctly */
+  background-image: url("../../assets/homebg1.jfif");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh; /* Default to full height for large screens */
+  overflow: hidden; /* Prevents pseudo-element overflow */
+}
+
+/* Overlay effect with a faded black tint */
+.navBg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Adjust opacity to control the darkness */
+  z-index: 1; /* Ensures the overlay is on top of the background but below content */
+}
+
+/* Content inside .navBg (e.g., text or buttons) */
+.navBg > * {
+  position: relative;
+  z-index: 2; /* Ensures content is above the overlay */
+}
+
+/* Mobile view */
+@media (max-width: 640px) {
+  .navBg {
+    height: 50vh; /* 50% viewport height for small screens */
+  }
+}
+
+/* Tablet view */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .navBg {
+    height: 75vh; /* 75% viewport height for medium screens */
+  }
+}
+
+/* Desktop view */
+@media (min-width: 1025px) {
+  .navBg {
+    height: 100vh; /* Full viewport height for large screens */
+  }
+}
