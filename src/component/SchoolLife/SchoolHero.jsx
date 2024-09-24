@@ -1,6 +1,6 @@
 import React from 'react'
 
-import aboutBg from "../../assets/admissionBg.jpg"
+import aboutBg from "../../assets/schoolLifeBg.jpg"
 const SchoolHero = () => {
   return (
     <div className='relative w-full h-[400px] md:h-[500px]' >

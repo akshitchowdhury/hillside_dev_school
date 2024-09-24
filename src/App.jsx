@@ -16,6 +16,13 @@ import PreSchool from './component/SchoolLife/PreSchool'
 import SchoolLife from './component/SchoolLife/SchoolLife'
 import FAQ from './component/FAQ/FAQ'
 import Career from './component/Career/Career'
+import SchoolAdmin from './component/About/SchoolAdmin'
+import Faculty from './component/About/Faculty'
+import Founder from './component/About/Founder'
+import Facility from './component/Facilities/Facility'
+import Admission from './component/Admission/Admission'
+import Contact from './component/Contact/Contact'
+
 function App() {
   
 
@@ -26,9 +33,15 @@ function App() {
     
     <Routes>
   <Route path="/" element={<Home />} />
+  <Route path="/admin" element={<SchoolAdmin/>} />
+  {/* <Route path="/faculty" element={<Faculty />} />
+  <Route path="/admission" element={<Admission/>} /> */}
+  {/* <Route path="/facility" element={<Facility />} /> */}
+  <Route path="/founder" element={<Founder />} />
   <Route path="/preschool" element={<SchoolLife/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/faq" element={<FAQ/>} />
+  <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </Router>

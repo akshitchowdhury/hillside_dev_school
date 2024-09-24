@@ -27,6 +27,10 @@ const CareerForm = () => {
   };
 
   return (
+    <>
+    {/* <p className='h-[1px] my-2 bg-gray-600  w-full'>
+
+      </p> */}
     <div className="max-w-4xl mx-auto p-6 bg-white  rounded-lg">
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Apply for a Teaching Position</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -149,6 +153,7 @@ const CareerForm = () => {
         </div>
       </form>
     </div>
+    </>
   );
 };
 

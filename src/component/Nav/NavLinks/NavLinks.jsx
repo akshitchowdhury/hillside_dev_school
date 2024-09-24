@@ -70,10 +70,10 @@ useEffect(() => {
             {/* <GroupOfinstitutions /> */}
             <li className="relative">
               <Link
-                to="/research"
+                to="/facility"
                 className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
               >
-                RESEARCH
+                FACILITES
               </Link>
             </li>
             {/* <Resources /> */}
@@ -113,7 +113,7 @@ useEffect(() => {
           </ul>
         </div>
       </div>
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800`}>
+      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800 h-[600px] z-50`}>
         <ul className="flex flex-col justify-around h-auto items-start px-6 py-4 text-white">
           <li className="py-2">
             <Link to="/" className="hover:text-gray-400">
@@ -122,7 +122,7 @@ useEffect(() => {
           </li>
           <li className="py-2">
             <Link to="/about" className="hover:text-gray-400">
-              ABOUT US
+              OUR FAMILY
             </Link>
           </li>
           {/* <GroupOfInstitutionMobile /> */}

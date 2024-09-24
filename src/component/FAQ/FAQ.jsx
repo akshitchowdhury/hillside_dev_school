@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import FaqHero from './FaqHero'
 import NavUni from '../Nav/NavUni'
+import FaqText from './FaqText'
 
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null)
@@ -49,6 +50,7 @@ export default function FAQ() {
     <>
     <NavUni/>
     <FaqHero/>
+    <FaqText/>
     <div className="max-w-3xl mx-auto my-12 p-6 bg-gradient-to-br  rounded-xl ">
       <h2 className="text-3xl font-bold text-center mb-8 text-indigo-800">Frequently Asked Questions</h2>
       <div className="space-y-4">

@@ -6,6 +6,7 @@ import HomeAbout from './HomeAbout'
 import HomeWhyUs from './HomeWhyUs'
 import HomeApply from './HomeApply'
 import Nav from '../Nav/Nav'
+import CareerExp from '../Career/CareerExp'
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
       
       <HomeAbout/>
       <HomeCount/>
-
+      
+      <CareerExp/>
       <HomeFacilities/>
       <HomeApply/>
       

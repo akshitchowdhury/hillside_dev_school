@@ -1,7 +1,7 @@
 /* Base styles for the background image */
 .navBg {
   position: relative; /* To position the overlay correctly */
-  background-image: url("../../assets/homebg1.jfif");
+  background-image: url("https://ihs.edu.in/wp-content/uploads/2019/09/school-building-v3.jpg?id=2446");
   background-size: cover;
   background-attachment: fixed;
   height: 70vh; /* Default to full height for large screens */

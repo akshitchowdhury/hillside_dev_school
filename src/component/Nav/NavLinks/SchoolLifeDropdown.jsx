@@ -28,17 +28,17 @@ const SchoolLifeDropdown = () => {
               </Link>
             </li>
             <li>
-              <Link to= "/about"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <Link to= "/preschool"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Classes 1-4
               </Link>
             </li>
             <li>
-              <Link to= "/about"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <Link to= "/preschool"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Classes 5-7
               </Link>
             </li>
             <li>
-              <Link to= "/about"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <Link to= "/preschool"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Classes 8-10
               </Link>
             </li>

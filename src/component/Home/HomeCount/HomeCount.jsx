@@ -106,7 +106,7 @@ function HomeCount() {
       </div>
     </div>
     <div className="flex justify-center items-center h-full">
-  <div className="h-[2px] w-full max-w-[1000px] bg-black"></div>
+  {/* <div className="h-[2px] w-full max-w-[1000px] bg-black"></div> */}
 </div>
 
     </>

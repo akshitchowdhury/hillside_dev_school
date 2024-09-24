@@ -16,8 +16,7 @@ export default function Footer() {
               className="h-[70px] w-auto"
             />
             <p className="text-sm">
-              Hillside Academy started back in 1996 by Bheemachandra Education Trust. Hillside Group has various
-              educational institutions ranging from Kindergarten to PG courses in and around Bangalore City.
+            Progressive Educational Trust (PET) was established in 1996 with a vision to offer quality education from Kindergarten to postgraduate levels. PET operates a diverse range of educational institutions across Bangalore, dedicated to nurturing students from early childhood through advanced studies.
             </p>
             <div className="flex space-x-4">
               <a href="#" aria-label="Facebook" className="text-gray-400 hover:text-amber-400 transition-colors">
@@ -39,7 +38,7 @@ export default function Footer() {
                 href="mailto:admissions@hillsideacademy.in"
                 className="text-sm hover:text-amber-400 transition-colors"
               >
-                admissions@hillsideacademy.in
+                admissions@progressiveeducationaltrust.in
               </a>
             </div>
           </div>
