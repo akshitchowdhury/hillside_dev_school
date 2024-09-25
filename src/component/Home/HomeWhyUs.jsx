@@ -18,8 +18,9 @@ export default function HomeWhyUs() {
         </button>
       </div>
       <div className="bg-[#FFD700] text-black p-8 md:w-1/3">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">360° Virtual Tour</h2>
-        <p className="mb-6">Can't visit our school in person? Take a 360° virtual tour instead.</p>
+      <h2 className="text-3xl md:text-4xl font-bold mb-4">Explore Our Campus</h2>
+<p className="mb-6">Interested in joining our school? Discover our state-of-the-art facilities, classrooms, and more.</p>
+
         <button className="border-2 border-black px-6 py-2 hover:bg-black hover:text-[#FFD700] transition-colors duration-300">
           View now
         </button>

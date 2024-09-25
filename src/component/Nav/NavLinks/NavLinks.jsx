@@ -113,8 +113,8 @@ useEffect(() => {
           </ul>
         </div>
       </div>
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800 h-[600px] z-50`}>
-        <ul className="flex flex-col justify-around h-auto items-start px-6 py-4 text-white">
+      {/* <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800  h-[770px] z-50`}>
+        <ul className="flex flex-col justify-around h-auto items-start px-6 py-0 text-white">
           <li className="py-2">
             <Link to="/" className="hover:text-gray-400">
               HOME
@@ -125,16 +125,31 @@ useEffect(() => {
               OUR FAMILY
             </Link>
           </li>
-          {/* <GroupOfInstitutionMobile /> */}
+          
           <li className="py-2">
-            <Link to="/research" className="hover:text-gray-400">
-              RESEARCH
+            <Link to="/facility" className="hover:text-gray-400">
+              FACILITIES
             </Link>
           </li>
-          <ResourcesMobile />
+          <li className="py-2">
+            <Link to="/career" className="hover:text-gray-400">
+            CAREER
+            </Link>
+          </li>
+          <li className="py-2">
+            <Link to="/preschool" className="hover:text-gray-400">
+            SCHOOL LIFE
+            </Link>
+          </li>
+          
           <li className="py-2">
             <Link to="/admission" className="hover:text-gray-400">
               ADMISSION 2023-24
+            </Link>
+          </li>
+          <li className="py-2">
+            <Link to="/faq" className="hover:text-gray-400">
+              FAQ
             </Link>
           </li>
           <li className="py-2">
@@ -143,7 +158,54 @@ useEffect(() => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
+      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800 h-auto z-50`}>
+  <ul className="flex flex-col justify-around items-start px-6 py-0 text-white">
+    <li className="py-2">
+      <Link to="/" className="hover:text-gray-400">
+        HOME
+      </Link>
+    </li>
+    <li className="py-2">
+      <Link to="/about" className="hover:text-gray-400">
+        OUR FAMILY
+      </Link>
+    </li>
+    {/* <GroupOfInstitutionMobile /> */}
+    <li className="py-2">
+      <Link to="/facility" className="hover:text-gray-400">
+        FACILITIES
+      </Link>
+    </li>
+    <li className="py-2">
+      <Link to="/career" className="hover:text-gray-400">
+        CAREER
+      </Link>
+    </li>
+    <li className="py-2">
+      <Link to="/preschool" className="hover:text-gray-400">
+        SCHOOL LIFE
+      </Link>
+    </li>
+    <li className="py-2">
+      <Link to="/admission" className="hover:text-gray-400">
+        ADMISSION 2023-24
+      </Link>
+    </li>
+    <li className="py-2">
+      <Link to="/faq" className="hover:text-gray-400">
+        FAQ
+      </Link>
+    </li>
+    <li className="py-2">
+      <Link to="/contact" className="hover:text-gray-400">
+        CONTACT
+      </Link>
+    </li>
+  </ul>
+</div>
+
+    
     </div>
 
     <NavText/>
