@@ -27,9 +27,9 @@ const Nav = () => {
           {/* Topbar Right */}
           <div className="topbar-right mt-2 text-sm sm:mt-0 text-left">
             <ul className="flex md:items-center text-white">
-              <li className="flex items-start">
+              <li className="flex items-start text-black">
                 <FontAwesomeIcon icon={faMobileAlt} className='px-4'/>
-                <p> FOR ADMISSION? +91-98459 56633, +91-97428 03553</p>
+                <p> FOR ADMISSION? <Link to="/contact" >CONTACT</Link></p>
               </li>
             </ul>
           </div>
