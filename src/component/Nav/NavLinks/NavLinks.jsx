@@ -13,6 +13,7 @@ import '../Nav.css';
 import NavText from './NavText/NavText';
 import SchoolLifeDropdown from './SchoolLifeDropdown';
 
+import SchoolLifeMobile from './SchoolLifeMobile'
 const NavLinks = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -166,11 +167,7 @@ useEffect(() => {
         HOME
       </Link>
     </li>
-    <li className="py-2">
-      <Link to="/about" className="hover:text-gray-400">
-        OUR FAMILY
-      </Link>
-    </li>
+    <SchoolLifeMobile/>
     {/* <GroupOfInstitutionMobile /> */}
     <li className="py-2">
       <Link to="/facility" className="hover:text-gray-400">
