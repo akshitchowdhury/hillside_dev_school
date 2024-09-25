@@ -9,7 +9,7 @@ import logo from '../../../assets/logo-removebg-preview.png';
 import AboutDropDown from './AboutDropDown';
 import Resources from './Resources';
 import ResourcesMobile from './ResourcesMobile';
-
+import SchoolLifeMobile from './SchoolLifeMobile'
 import SchoolLifeDropdown from './SchoolLifeDropdown';
 
 const NavUniLinks = () => {
@@ -97,11 +97,12 @@ const NavUniLinks = () => {
         HOME
       </Link>
     </li>
-    <li className="py-2">
+    {/* <li className="py-2">
       <Link to="/about" className="hover:text-gray-400">
         OUR FAMILY
       </Link>
-    </li>
+    </li> */}
+      <SchoolLifeMobile/>
     {/* <GroupOfInstitutionMobile /> */}
     <li className="py-2">
       <Link to="/facility" className="hover:text-gray-400">

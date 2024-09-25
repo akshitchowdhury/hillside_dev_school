@@ -3,7 +3,7 @@ import SchoolAdmin from './SchoolAdmin';
 
 const FounderText = () => {
   return (
-    <div className="absolute top-20 left-0 z-40 bg-white bg-opacity-70 p-8 max-w-[500px]  mt-20 md:mt-32 lg:mt-40 ">
+    <div className="md:absolute md:top-20 md:left-0 md:z-40 bg-white bg-opacity-70 p-8 max-w-[500px]  mt-4 md:mt-32 lg:mt-40 ">
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-pink-950 mb-4">OUR FOUNDER</h2>
       
