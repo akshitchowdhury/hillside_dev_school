@@ -12,7 +12,8 @@ const CareerExp = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 200,
+    
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true, // Adjusts height to fit the current slide

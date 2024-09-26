@@ -89,8 +89,8 @@ function HomeCount() {
           />
           <CountUpAnimation
             initialValue={0}
-            targetValue={200}
-            text="Successful Graduates"
+            targetValue={400}
+            text="Satisfied Parents"
           />
           <CountUpAnimation
             initialValue={0}

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutmain from "../../assets/aboutBg.jpg";
+import aboutmain from "../../assets/homeEca.jpg";
 
 const HomeAbout = () => {
   return (
@@ -29,7 +29,7 @@ const HomeAbout = () => {
             <img
               src={aboutmain}
               alt="Hillside School"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
+              className="w-full h-full  object-cover rounded-lg shadow-lg"
             />
           </div>
         </div>
