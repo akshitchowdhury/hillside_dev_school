@@ -1,6 +1,6 @@
 import React from 'react'
 
-import aboutBg from "../../assets/homeBg1.jfif"
+import aboutBg from "../../assets/homeBg1.png"
 const FacilityHero = () => {
   return (
     <div className='relative w-full h-[400px] md:h-[500px]' >
