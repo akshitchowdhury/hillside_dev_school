@@ -1,11 +1,15 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, MessageCircle, Mail, MapPin, Phone, FileText } from 'lucide-react';
 import footerLogo from "../../assets/footerLogo.png";
+import { Link } from 'react-router-dom';
 export default function Footer() {
+  const handleClick = () => {
+    window.scrollTo({ behavior: 'smooth', top: "0" });
+  };
   return (
     <footer className="bg-gray-800 text-gray-300">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and About */}
           <div className="space-y-4">
             <img
@@ -43,27 +47,48 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+         {/* OUR FAMILY */}
+          
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Our Family</h3>
+            <ul className="space-y-2">
+              {[
+                { label: 'Our Founder', link: '/founder' },
+                { label: 'School Administration', link: '/admin' },
+                { label: 'Faculty', link: '/faculty' },,
+              ].map((item) => (
+                <li key={item.label}>
+                  <Link  to={item.link} onClick={handleClick} className="hover:text-amber-400 transition-colors">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+
+                          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               {[
                 { label: 'Home', link: '/' },
-                { label: 'About Us', link: '/about-us' },
-                { label: 'Research', link: '/research' },
-                { label: 'Group of Institutions', link: '/group-of-institutions' },
-                { label: 'Alumni Association', link: '/alumni-association' },
-                { label: 'Admission 2023-24', link: '/admission-2023-24' },
+                { label: 'Facilities', link: '/facility' },
+                { label: 'Career', link: '/career' },
+                { label: 'School Life', link: '/preschool' },
+                { label: 'Admission 2024-25', link: '/admission' },
+                { label: 'FAQ', link: '/faq' },
                 { label: 'Contact', link: '/contact' },
               ].map((item) => (
                 <li key={item.label}>
-                  <a href={item.link} className="hover:text-amber-400 transition-colors">
+                  <Link to={item.link} onClick={handleClick} className="hover:text-amber-400 transition-colors">
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
+
 
           {/* Contact Us */}
           <div className="space-y-4">

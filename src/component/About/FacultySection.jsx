@@ -19,7 +19,7 @@ export default function FacultySection() {
       {
         name: "Irene Daniel",
         position: "Middle School",
-        image: "https://ihs.edu.in/wp-content/uploads/2023/06/vice-principal.jpg",
+        image: "https://t3.ftcdn.net/jpg/04/48/03/56/360_F_448035690_o2uvf0WcCJcOkjoiDhCqHZdqoi8KzQzO.jpg",
         qualifications: "M.A. (Eng), B.Ed (Hindi & English)",
         experience: "25 years",
         joining: "2018",
