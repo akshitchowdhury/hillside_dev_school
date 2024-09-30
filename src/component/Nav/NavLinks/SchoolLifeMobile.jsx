@@ -23,22 +23,27 @@ const GroupOfInstitutionMobile = () => {
           <ul className="absolute left-32 mt-2 w-56
            bg-white shadow-lg  py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <li>
-              <Link to="/about"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <Link to= "/about" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 ABOUT US
               </Link>
             </li>
             <li>
-              <Link to="/founder"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
-                OUR FOUNDER
+              <Link to= "/founder" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+                OUR PRESIDENT
               </Link>
             </li>
             <li>
-              <Link to="/admin"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
-                SCHOOL ADMINISTRATION
+              <Link to= "/secretary" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+                OUR SECRETARY
               </Link>
             </li>
             <li>
-              <Link to="/faculty"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <Link to= "/admin" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+                OUR TEAM
+              </Link>
+            </li>
+            <li>
+              <Link to= "/faculty"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 FACULTY
               </Link>
             </li>
