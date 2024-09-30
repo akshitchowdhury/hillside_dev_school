@@ -20,7 +20,7 @@ export default function Footer() {
               className="h-[70px] w-auto"
             />
             <p className="text-sm">
-            Progressive Educational Trust (PET) was established in 1996 with a vision to offer quality education from Kindergarten to postgraduate levels. PET operates a diverse range of educational institutions across Bangalore, dedicated to nurturing students from early childhood through advanced studies.
+            Progressive Eduational Trust is an institution that is dedicated to promoting, managing, and overseeing educational initiatives, schools and programs.
             </p>
             <div className="flex space-x-4">
               <a href="#" aria-label="Facebook" className="text-gray-400 hover:text-amber-400 transition-colors">
