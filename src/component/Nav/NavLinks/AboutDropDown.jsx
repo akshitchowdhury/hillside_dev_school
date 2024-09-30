@@ -33,8 +33,13 @@ const AboutDropDown = () => {
               </Link>
             </li>
             <li>
+              <Link to= "/secretary" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+                OUR SECRETARY
+              </Link>
+            </li>
+            <li>
               <Link to= "/admin" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
-                SCHOOL ADMINISTRATION
+                OUR TEAM
               </Link>
             </li>
             <li>
