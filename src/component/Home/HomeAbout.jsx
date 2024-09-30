@@ -9,17 +9,18 @@ const HomeAbout = () => {
           {/* Left side: Title and Paragraph */}
           <div className="lg:w-1/2 w-full lg:pr-8 space-y-8">
             <div>
-              <h3 className="text-amber-400 text-lg my-4">Who are We?</h3>
+              <h3 className="text-amber-400 text-lg my-4">How did we begin?</h3>
               <h2 className="text-4xl lg:text-6xl font-normal text-zinc-50 mb-4">
-                Progressive Eduational Trust for Children
+              Bethel English High School
               </h2>
             </div>
             <div>
               <p className="text-lg text-justify text-gray-50">
                 <span className="text-4xl text-amber-400 font-semibold">
-                  Progressive Eduational Trust
+                Bethel English High School
                 </span>{" "}
-                 is an institution that is dedicated to promoting, managing, and overseeing educational initiatives, schools and programs. These society are focus on improving access to quality education for all segments of society, fostering innovation in teaching and learning, and contributing to social development through education.
+                 was established in 1983 with Primary English Medium School and with the mission of providing high-quality education to the students of our community. Over the years, Bethel has grown into a well-respected institution known for its commitment to academic excellence, holistic development, and fostering a nurturing environment.
+
               </p>
             </div>
           </div>

@@ -23,6 +23,11 @@ const GroupOfInstitutionMobile = () => {
           <ul className="absolute left-32 mt-2 w-56
            bg-white shadow-lg  py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <li>
+              <Link to="/about"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+                ABOUT US
+              </Link>
+            </li>
+            <li>
               <Link to="/founder"  className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 OUR FOUNDER
               </Link>

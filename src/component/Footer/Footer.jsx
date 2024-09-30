@@ -20,7 +20,7 @@ export default function Footer() {
               className="h-[70px] w-auto"
             />
             <p className="text-sm">
-            Progressive Eduational Trust is an institution that is dedicated to promoting, managing, and overseeing educational initiatives, schools and programs.
+            Progressive Eduation Society is an institution that is dedicated to promoting, managing, and overseeing educational initiatives, schools and programs.
             </p>
             <div className="flex space-x-4">
               <a href="#" aria-label="Facebook" className="text-gray-400 hover:text-amber-400 transition-colors">

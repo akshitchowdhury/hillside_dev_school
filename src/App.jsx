@@ -22,6 +22,7 @@ import Founder from './component/About/Founder'
 import Facility from './component/Facilities/Facility'
 import Admission from './component/Admission/Admission'
 import Contact from './component/Contact/Contact'
+import AboutUs from './component/About/AboutUs'
 
 function App() {
   
@@ -33,6 +34,7 @@ function App() {
     
     <Routes>
   <Route path="/" element={<Home />} />
+  <Route path="/about" element={<AboutUs />} />
   <Route path="/admin" element={<SchoolAdmin/>} />
    <Route path="/faculty" element={<Faculty />} />
   <Route path="/admission" element={<Admission/>} /> 
