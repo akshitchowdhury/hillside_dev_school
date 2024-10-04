@@ -17,7 +17,7 @@ const Nav = () => {
               <li className="flex items-center ">
                 <FontAwesomeIcon icon={faEnvelope} className='px-4'/>
                 <a href="mailto:admissions@hillsideacademy.in" className="hover:text-gray-400">
-                  admissions@hillsideacademy.in
+                  admissions@progressiveeducationaltrust.in
                 </a>
               </li>
             </ul>
