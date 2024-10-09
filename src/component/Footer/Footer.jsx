@@ -96,7 +96,7 @@ export default function Footer() {
             <div className="flex items-start space-x-2">
               <MapPin className="text-amber-400 h-5 w-5 mt-1 flex-shrink-0" />
               <p className="text-sm">
-                # 9, Raghuvanahalli, Gubbalala Cross, Kanakapura Main Road, Bangalore-560062, Karnataka, India.
+              Athibele Checkpost, Athibele, BENGALURU - 562102 Karnataka, India.
               </p>
             </div>
             <div>
@@ -104,20 +104,20 @@ export default function Footer() {
               <div className="flex items-start space-x-2">
                 <Phone className="text-amber-400 h-5 w-5 mt-1 flex-shrink-0" />
                 <p className="text-sm">
-                  080 655 87775, 080 655 87776, 098 459 56633, 097 428 03553, 099 005 42900
+                +91-9743788868 / +91-9731044016
                 </p>
               </div>
             </div>
             <div className="flex items-center space-x-2">
-              <FileText className="text-amber-400 h-5 w-5" />
-              <a
+              {/* <FileText className="text-amber-400 h-5 w-5" /> */}
+              {/* <a
                 href="/brochure/Hillside-Academy-Brochure.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:text-amber-400 transition-colors"
               >
                 Download Brochure
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
