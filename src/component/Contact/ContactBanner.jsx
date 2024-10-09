@@ -11,22 +11,19 @@ const ContactBanner = () => {
             <h3 className="text-2xl text-left font-semibold mb-2 my-4 ">CONTACT INFO</h3>
             <h5 className="text-base text-amber-500 font-medium ">PET CAMPUS & ADMISSION</h5>
             <p className="text-sm  mb-4 text-left py-6">
-              # 9, Raghuvanahalli, Gubbalala Cross, <br />
-              Kanakapura Main Road, <br />
-              Bangalore-560062, <br />
-              Karnataka, India.
+            Athibele Checkpost, Athibele,
+            <br/> BENGALURU - 562102
             </p>
             <ul className="address-list text-sm text-left space-y-3">
               <li>
-                <FontAwesomeIcon className='text-amber-500' icon={faPhoneAlt}/> <i className="fa fa-phone "></i>080-65587775, 080-6558 7776, <br />
-                098459 56633, 097428 03553
+                <FontAwesomeIcon className='text-amber-500' icon={faPhoneAlt}/> <i className="fa fa-phone "></i>+91-9743788868 / +91-9731044016
               </li>
               <li>
                 <hr />
                 <h5 className="text-base text-amber-500 font-medium">ADMISSION</h5>
               </li>
               <li>
-              <FontAwesomeIcon className='text-amber-500' icon={faMobileAlt}/> (+91) 984 595 6633
+              <FontAwesomeIcon className='text-amber-500' icon={faMobileAlt}/> (+91) 9743788868
               </li>
               <li>
               <FontAwesomeIcon className='text-amber-500' icon={faEnvelopeOpen}/> admissions@progressiveeducationaltrust.in

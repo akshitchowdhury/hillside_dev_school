@@ -30,7 +30,7 @@ const NavUni = () => {
             <ul className="flex md:items-center text-white">
               <li className="flex items-start">
                 <FontAwesomeIcon icon={faMobileAlt} className='px-4'/>
-                <p> FOR ADMISSION? +91-98459 56633, +91-97428 03553</p>
+                <p> FOR ADMISSION? +91-9743788868 / +91-9731044016</p>
               </li>
             </ul>
           </div>
