@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-    <div className='app overflow-clip'>
+    <div className='app overflow-clip '>
 <Router>
     
     <Routes>

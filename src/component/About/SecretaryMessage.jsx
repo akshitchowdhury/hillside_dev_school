@@ -20,7 +20,7 @@ const SecretaryMessage = () => {
               />
             </div>
 
-            <div className="space-y-4 text-gray-700 leading-relaxed">
+            <div className="space-y-4 text-gray-700 text-justify leading-relaxed">
               <p>
                 Dear Students, Parents, and Esteemed Members of the School Community,
               </p>

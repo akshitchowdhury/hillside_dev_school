@@ -7,8 +7,8 @@ export default function HomeApply() {
     window.scrollTo({ behavior: 'smooth', top: "0" });
   };
   return (
-    <div className="bg-[#f1be31] text-pink-950 p-6 md:p-8 lg:p-10">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+    <div className="bg-[#f1be31] text-pink-950 text-justify p-6 md:p-8 lg:p-10">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl  font-bold mb-4">
         Explore working at Bethel English High School
       </h2>
       <p className="text-sm md:text-base text-gray-600 lg:text-lg mb-4">

@@ -20,7 +20,7 @@ const Founder = () => {
               />
             </div>
 
-            <div className="space-y-4 text-gray-700 leading-relaxed">
+            <div className="space-y-4 text-gray-700 text-justify leading-relaxed">
               <p>
                 Dear Parents, Students, and Well-Wishers,
               </p>

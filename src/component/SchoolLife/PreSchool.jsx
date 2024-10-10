@@ -18,14 +18,14 @@ export default function PreSchool() {
       </div>
       <div className="md:w-1/2 md:pl-8">
         <h1 className="text-3xl font-bold mb-4 text-gray-800">Preschool</h1>
-        <p className="mb-4 text-gray-600">
+        <p className="mb-4 text-justify text-gray-600">
           The human brain develops most rapidly between birth and age five, making the
           preschool years a crucial part of a child's education. At Innisfree House School, we help
           children make the most of these years—academically, socially, physically and
           emotionally.
         </p>
         <h2 className="text-2xl font-semibold mb-3 text-gray-800">Life at preschool:</h2>
-        <p className="mb-4 text-gray-600">
+        <p className="mb-4 text-justify text-gray-600">
           Each day starts with circle time, an activity that involves sharing feelings, stories and
           positive affirmations. Learning begins with Montessori activities and exploratory, hands-
           on learning activities in language, number work and general awareness; pre-reading

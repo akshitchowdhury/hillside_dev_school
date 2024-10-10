@@ -44,7 +44,7 @@ export default function FacultySection() {
   <img
     src={faculty.image}
     alt={faculty.name}
-    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300 ease-in-out"
+    className="w-full h-full object-cover text-justify transform group-hover:scale-110 transition-transform duration-300 ease-in-out"
   />
 </div>
 

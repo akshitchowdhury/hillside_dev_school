@@ -16,13 +16,13 @@ export default function AboutUsBody() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-blue-800 text-white py-8">
-        <div className="container mx-auto px-4">
+        <div className="container text-justify mx-auto px-4">
           <h1 className="text-4xl font-bold">Bethel English High School</h1>
           <p className="mt-2 text-xl">Established 1983 - Nurturing Excellence Since Inception</p>
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-8">
+      <main className="container text-justify mx-auto px-4 py-8">
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Our History</h2>
           <div className="flex flex-col md:flex-row items-center">
@@ -58,15 +58,15 @@ export default function AboutUsBody() {
             <VisionMission/>
 
 
-        <section className="mb-12">
+        <section className="mb-12 text-justify">
           <h2 className="text-3xl font-semibold mb-8 text-center">Our Objectives</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {objectives.map((objective, index) => (
               <div 
                 key={index} 
-                className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl"
+                className="bg-white rounded-lg text-justify shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl"
               >
-                <div className="p-6 flex flex-col items-center text-center">
+                <div className="p-6 flex flex-col items-center ">
                   <objective.icon className="text-4xl text-blue-600 mb-4" />
                   <h3 className="text-xl font-semibold mb-2">{objective.title}</h3>
                   <p className="text-gray-700 text-sm">

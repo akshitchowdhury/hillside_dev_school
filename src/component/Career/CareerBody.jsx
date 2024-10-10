@@ -4,7 +4,7 @@ const CareerBody = () => {
   return (
     <>
 <div className='max-w-[1800px] mx-auto p-12 md:p-[60px] 
-text-center font-serif leading-[1.6] text-[#333] flex flex-col gap-6 justify-center items-center'>
+text-justify font-serif leading-[1.6] text-[#333] flex flex-col gap-6 justify-center items-center'>
 
     <h1 className='text-3xl lg:text-5xl md:text-5xl font-semibold text-left md:text-center '>
     Igniting a lifelong love of learning
