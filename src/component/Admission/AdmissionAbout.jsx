@@ -27,7 +27,7 @@ const AdmissionAbout = () => {
                 <li className='text-left'># 123, New Horizon Road, Gubbalala Cross, Kanakapura Main Road, Bangalore-560062, Karnataka, India.</li>
                 <hr className="border-gray-700" />
                 <li className="text-3xl text-amber-500 text-left font-semibold">Admission</li>
-                <li className='text-left'><FontAwesomeIcon className='text-amber-500' icon={faMobileAlt}/>: 098 459 56633, 097 428 03553, 099 005 42900</li>
+                <li className='text-left'><FontAwesomeIcon className='text-amber-500' icon={faMobileAlt}/>: +91-9743788868 / +91-9731044016</li>
                 <li className='text-left'><FontAwesomeIcon className='text-amber-500' icon={faEnvelopeOpen}/>: <a href="mailto:admissions@petacademy.in" className="text-blue-400 hover:underline">admissions@petacademy.in</a></li>
                 <hr className="border-gray-700" />
                 <li>
